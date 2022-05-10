@@ -20,6 +20,10 @@ align-items: center;
 display: flex;
 }
 
+header h1 {
+  padding: 10px 15px;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -40,8 +44,14 @@ header nav a {
   background-size: cover;
   padding: 2% 6%;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .about h2 {
   border-right: turquoise;
+}
+
+.page-section {
+  margin: 0;
 }
