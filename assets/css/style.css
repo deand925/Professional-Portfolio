@@ -4,15 +4,15 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: var(--primary);
-  background-color: var(--light);
+  background-color: lightblue;
   line-height: 1.5;
 }
 
 header {
-color: white;
+color: orange;
 background-color: black;
 justify-content: space-between;
 flex-wrap: wrap;
@@ -22,6 +22,7 @@ display: flex;
 
 header h1 {
   padding: 10px 15px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 nav {
@@ -36,22 +37,90 @@ nav a {
 
 header nav a {
   text-decoration: none;
-  color: white;
+  color: orange;
 }
-
+/*Hero Start*/
 .hero-banner {
   background-image: url(https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id537331500?b=1&k=20&m=537331500&s=170667a&w=0&h=-OawbbTR9TwfewLYKlaU-_cn1m_dq1WLpBK1qubFhGI=);
   background-size: cover;
   padding: 2% 6%;
-  color: white;
+  color: orange;
   display: flex;
   justify-content: center;
 }
 
-.about h2 {
-  border-right: turquoise;
+.page-wrapper {
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-section {
-  margin: 0;
+  margin: 25px 0;
+  padding: 10px 0;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: orange;
+  }
+
+.page-section h2 {
+flex: 0 0 20%;
+}
+
+ .page-section p {
+flex: 0 0 75%;
+ }
+
+.page-section .flex-container {
+flex: 0 0 75%;
+display: flex;
+flex-wrap: wrap;
+ }
+
+.flex-item {
+  flex: 0 0 50%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.run-buddy {
+  flex: 0 0 100%;
+  background-image: url("../images/hero-bg.jpeg");
+}
+
+.project1 {
+  background-image: url("../images/computer2.jpeg");
+  opacity: 80%;
+}
+
+.project2 {
+  background-image: url("../images/computer\ 1.jpeg");
+}
+
+.project3 {
+  background-image: url("../images/computer3.jpeg");
+}
+
+.project4 {
+  background-image: url("../images/computer4.jpeg");
+}
+
+span, a {
+  color: orange;
+}
+
+address {
+flex: 0 0 80%;
+display: flex;
+justify-content: space-around;
+text-decoration: none;
+}
+
+#contact {
+  background-image: url(https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id537331500?b=1&k=20&m=537331500&s=170667a&w=0&h=-OawbbTR9TwfewLYKlaU-_cn1m_dq1WLpBK1qubFhGI=);
+  background-size: cover;
+  color: orange;
 }
